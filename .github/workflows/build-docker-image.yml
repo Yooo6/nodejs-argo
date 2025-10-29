@@ -39,7 +39,7 @@ jobs:
           push: true
           platforms: linux/amd64,linux/arm64
           tags: |
-            ghcr.io/sgdhafsh/wangrailw:tes23
+            ghcr.io/sgdhafsh/wangrailw:5223
           labels: |
             org.opencontainers.image.source=https://github.com/${{ github.repository }}
             org.opencontainers.image.description=HTTP Server
